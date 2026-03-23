@@ -1,6 +1,6 @@
 import LoanForm from "./components/LoanForm";
 
-function App() {
+const App = () => {
   return (
     <div>
       <LoanForm />
