@@ -1,14 +1,3 @@
-interface CustomerWithDebt {
-    hasDebt: true;
-}
-
-interface CustomerWithoutDebt {
-    hasDebt: false;
-    creditModifier: number;
-}
-
-export type Customer = CustomerWithDebt | CustomerWithoutDebt
-
 export interface LoanRequest {
     personalCode: string;
     loanAmount: number;

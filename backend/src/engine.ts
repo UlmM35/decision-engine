@@ -42,5 +42,5 @@ export const decide = (creditModifier: number, requestedAmount: number, requeste
     }
 
   // didnt pass so return false
-  return { approved: false };
+  return { approved: false, reason: "Not good enough credit score" };
 };
