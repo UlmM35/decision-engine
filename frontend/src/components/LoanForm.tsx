@@ -50,7 +50,7 @@ const LoanForm = () => {
                     value={personalCode}
                     onChange={(e) => setPersonalCode(e.target.value)}
                     required
-            />
+                />
             </div>
 
             <div className="form-group">
@@ -60,7 +60,7 @@ const LoanForm = () => {
                 value={loanAmount}
                 onChange={(e) => setLoanAmount(Number(e.target.value))}
                 required
-            />
+                />
             </div>
 
             <div className="form-group">
@@ -70,7 +70,7 @@ const LoanForm = () => {
                 value={loanPeriod}
                 onChange={(e) => setLoanPeriod(Number(e.target.value))}
                 required
-            />
+                />
             </div>
 
             <button type="submit" disabled={loading}>
